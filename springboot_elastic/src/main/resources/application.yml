@@ -1,0 +1,20 @@
+server:
+  port: 8010
+logging:
+  config: classpath:log4j2-spring.xml
+spring:
+    datasource:
+      username: root
+      password: rootzs
+      url: jdbc:mysql://localhost:3306/supervisory_platform?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+      driver-class-name: com.mysql.jdbc.Driver
+elasticsearch: 
+    ip: 192.168.32.157
+    port: 9300
+    pool: 5
+    cluster: 
+      name: liuliang
+     
+  
+
+ 
